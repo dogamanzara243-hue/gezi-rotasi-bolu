@@ -24,7 +24,42 @@ const SPOT_DATA = {
         paragraphs: ["Bolu; dört mevsim ayrı bir renge bürünen ormanları, kartpostal güzelliğindeki gölleri ve temiz havasıyla doğaseverlerin vazgeçilmez durağıdır.", "Sonbaharda sarı ve kırmızının her tonunu sunan Yedigöller, kışın kar altındaki Gölcük ve Abant gölleri unutulmaz manzaralar vadeder."],
         visitorNotes: [{"label": "En İyi Zaman", "value": "Her Mevsim Ayrı Güzel"}, {"label": "Sonbahar", "value": "Ekim - Kasım Yedigöller İçin Efsane"}, {"label": "Kış Sporu", "value": "Kartalkaya Kayak Merkezi"}]
     },
-    whyVisit: {"title": "Neden Bolu'ya Gitmelisiniz?", "subtitle": "Şehir stresinden uzak, bol oksijenli doğa kaçamağı", "cards": [{"icon": "fa-solid fa-tree", "title": "Yedigöller Milli Parkı", "description": "7 adet heyelan set gölü ve rengarenk orman yürüyüş yolları."}, {"icon": "fa-solid fa-water", "title": "Abant & Gölcük", "description": "Göl kenarındaki ahşap konuk evi ile kartpostalları süsleyen simge manzara."}, {"icon": "fa-solid fa-snowflake", "title": "Kartalkaya", "description": "Türkiye'nin en popüler ve kaliteli kayak pistlerine sahip kış merkezi."}]},
+    
+    whyVisit: {
+        title: "Bolu Keşif Rotaları",
+        subtitle: "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
+        cards: [
+            {
+                icon: "fa-solid fa-landmark",
+                title: "Tarihi Yerler",
+                description: "Yüzyıllık anıtlar, kaleler, müzeler ve köklü medeniyet izleri.",
+                linkText: "Tarihi Keşfet",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-city",
+                title: "Modern Yerler",
+                description: "Şehrin en popüler meydanları, alışveriş merkezleri ve plazas.",
+                linkText: "Moderni İncele",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-gem",
+                title: "Sofistike Yerler",
+                description: "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
+                linkText: "Sofistike Noktalar",
+                url: "#where-to-stay-title"
+            },
+            {
+                icon: "fa-solid fa-tree",
+                title: "Doğal Güzellikler",
+                description: "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
+                linkText: "Doğayı Gör",
+                url: "#transport-title"
+            }
+        ]
+    },
+     {"icon": "fa-solid fa-water", "title": "Abant & Gölcük", "description": "Göl kenarındaki ahşap konuk evi ile kartpostalları süsleyen simge manzara."}, {"icon": "fa-solid fa-snowflake", "title": "Kartalkaya", "description": "Türkiye'nin en popüler ve kaliteli kayak pistlerine sahip kış merkezi."}]},
     mustSee: {
         title: "Görülmesi Gereken Öne Çıkan Noktalar",
         items: [{"category": "Milli Park", "title": "Yedigöller", "description": "Büyükgöl, Seringöl, Deringöl ve diğer cennet köşeler."}, {"category": "Tabiat Parkı", "title": "Gölcük Tabiat Parkı", "description": "Göl kenarındaki meşhur ev ve yürüyüş parkuru."}, {"category": "Göl", "title": "Abant Gölü", "description": "Fayton ve yürüyüş turları ile doğa harikası."}, {"category": "Kış", "title": "Kartalkaya", "description": "Mükemmel kar kalitesiyle kayak turları."}]
